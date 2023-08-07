@@ -28,7 +28,7 @@ public class EmployeeController {
 
 		theModel.addAttribute("employees", theEmployees);
 
-		return "employees/list-employees";
+		return "employees/index";
 	}
 
 	@GetMapping("/showFormForAdd")
